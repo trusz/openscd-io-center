@@ -25,7 +25,7 @@ export class LpEditor extends LitElement {
   @state() private isFormValid = false;
   @state() lpName: string = '';
   @state() lpDesc: string = '';
-  @state() lpType: string = '';A 
+  @state() lpType: string = '';
   @state() lpInst: string = '0';
   @state() attributeValues: { [doName: string]: { [daName: string]: any } } = {};
 
