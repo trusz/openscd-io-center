@@ -25,17 +25,11 @@ export class LpEditor extends LitElement {
   @state() private isFormValid = false;
   @state() lpName: string = '';
   @state() lpDesc: string = '';
-  @state() lpType: string = '';
+  @state() lpType: string = '';A 
   @state() lpInst: string = '0';
   @state() attributeValues: { [doName: string]: { [daName: string]: any } } = {};
 
-  private lpTypes = [
-    "LPDI",
-    "LPDO",
-    "LPAI",
-    "LPAO"
-  ];
-
+  
   private lpDataService = LpDataService.getInstance();
 
   constructor() {
