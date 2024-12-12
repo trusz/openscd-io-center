@@ -29,6 +29,13 @@ export class LpEditor extends LitElement {
   @state() lpInst: string = '0';
   @state() attributeValues: { [doName: string]: { [daName: string]: any } } = {};
 
+  private lpTypes = [
+    "LPDI",
+    "LPDO",
+    "LPAI",
+    "LPAO"
+  ];
+
   
   private lpDataService = LpDataService.getInstance();
 
@@ -84,7 +91,6 @@ export class LpEditor extends LitElement {
     }
 
     const lpTypes = Array.from(logicalNodes).filter((ln) => {
-	  // @ts-expect-error Note: not sure what this sould do
       return this.lpTypes.includes(ln.getAttribute('lnClass') || '');
     });
 
