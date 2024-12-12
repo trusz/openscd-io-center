@@ -1,0 +1,1 @@
+{"version":3,"file":"connector.interface.js","sourceRoot":"","sources":["../../../../src/editors/io-center/interfaces/connector.interface.ts"],"names":[],"mappings":"","sourcesContent":["export interface Connector {\n  id: string;\n  text: string;\n  type: string;\n  position: 'left' | 'right' | 'top' | 'bottom';\n  spacing?: number;\n}\n"]}

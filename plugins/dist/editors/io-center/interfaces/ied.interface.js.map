@@ -1,0 +1,1 @@
+{"version":3,"file":"ied.interface.js","sourceRoot":"","sources":["../../../../src/editors/io-center/interfaces/ied.interface.ts"],"names":[],"mappings":"","sourcesContent":["import {ILogicalDevice} from \"./logical-device.interface\";\n\nexport interface IIED {\n  name: string;\n  logicalDevices: ILogicalDevice[];\n  xmlData: Element;\n}\n"]}

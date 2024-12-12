@@ -1,0 +1,1 @@
+{"version":3,"file":"overlay-action.interface.js","sourceRoot":"","sources":["../../../../../src/editors/io-center/graphical-editor/action-overlay/overlay-action.interface.ts"],"names":[],"mappings":"","sourcesContent":["export interface IOverlayAction {\n  name?: string;\n  icon?: string;\n  action: () => void;\n}\n"]}

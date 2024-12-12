@@ -1,0 +1,1 @@
+{"version":3,"file":"connection-object.js","sourceRoot":"","sources":["../../../../src/editors/io-center/connection-manager/connection-object.ts"],"names":[],"mappings":"","sourcesContent":["export interface ConnectionObject {\n  id: string;\n  sourceConnectorId: string;\n  targetConnectorId: string;\n}\n"]}

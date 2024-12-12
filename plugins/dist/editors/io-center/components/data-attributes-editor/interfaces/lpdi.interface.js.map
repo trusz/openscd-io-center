@@ -1,0 +1,1 @@
+{"version":3,"file":"lpdi.interface.js","sourceRoot":"","sources":["../../../../../../src/editors/io-center/components/data-attributes-editor/interfaces/lpdi.interface.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILpdi {\n\n}\n"]}

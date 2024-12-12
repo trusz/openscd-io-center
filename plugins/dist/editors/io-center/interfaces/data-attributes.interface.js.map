@@ -1,0 +1,1 @@
+{"version":3,"file":"data-attributes.interface.js","sourceRoot":"","sources":["../../../../src/editors/io-center/interfaces/data-attributes.interface.ts"],"names":[],"mappings":"","sourcesContent":["export interface IDataAttributes {\n  name: string;\n  type: string;\n  value: string | null;\n  xmlData: Element;\n}\n"]}

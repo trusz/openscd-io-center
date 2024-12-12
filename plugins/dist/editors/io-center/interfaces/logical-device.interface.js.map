@@ -1,0 +1,1 @@
+{"version":3,"file":"logical-device.interface.js","sourceRoot":"","sources":["../../../../src/editors/io-center/interfaces/logical-device.interface.ts"],"names":[],"mappings":"","sourcesContent":["import {ILogicalNode} from \"./logical-node.interface\";\n\nexport interface ILogicalDevice {\n  name: string;\n  logicalNodes: ILogicalNode[];\n  xmlData: Element;\n}\n"]}

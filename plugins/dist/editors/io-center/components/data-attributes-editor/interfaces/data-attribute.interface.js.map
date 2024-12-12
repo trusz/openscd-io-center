@@ -1,0 +1,1 @@
+{"version":3,"file":"data-attribute.interface.js","sourceRoot":"","sources":["../../../../../../src/editors/io-center/components/data-attributes-editor/interfaces/data-attribute.interface.ts"],"names":[],"mappings":"","sourcesContent":["export interface IDataAttribute {\n  fc: string;\n  name: string;\n  bType: string;\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"treenode.interface.js","sourceRoot":"","sources":["../../../../src/editors/io-center/treeview/treenode.interface.ts"],"names":[],"mappings":"","sourcesContent":["import {DataObject} from \"../element-manager/data-object\";\n\nexport interface ITreeNode {\n  name: string;\n  children: ITreeNode[];\n  expanded: boolean;\n  dataObject?: DataObject;\n}\n"]}
