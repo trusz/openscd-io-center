@@ -84,6 +84,7 @@ export class LpEditor extends LitElement {
     }
 
     const lpTypes = Array.from(logicalNodes).filter((ln) => {
+	  // @ts-expect-error Note: not sure what this sould do
       return this.lpTypes.includes(ln.getAttribute('lnClass') || '');
     });
 
